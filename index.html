@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Iceland&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Warnes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="" id="form">
+      <div class="container" id="container">
+        <h1>Interactive Quiz</h1>
+        <label for="">
+          <p>
+            1. What is the capital of
+            <span style="font-weight: bold">France</span>?
+          </p>
+          <input type="radio" name="que1" value="a" required />Paris
+          <input type="radio" name="que1" value="b" required />Berlin
+          <input type="radio" name="que1" value="c" required />London
+        </label>
+        <hr />
+        <label for="">
+          <p>
+            2. Which planet is known as the
+            <span style="font-weight: bold">Red planet</span>?
+          </p>
+          <input type="radio" name="que2" value="a" required />Mars
+          <input type="radio" name="que2" value="b" required />Venus
+          <input type="radio" name="que2" value="c" required />Jupiter
+        </label>
+        <hr />
+        <label for="">
+          <p>
+            3. What is the largest mammal on
+            <span style="font-weight: bold">Earth(Land)</span>?
+          </p>
+          <input type="radio" name="que3" value="a" required />Elephant
+          <input type="radio" name="que3" value="b" required />Blue Whale
+          <input type="radio" name="que3" value="c" required />Giraffe
+        </label>
+        <hr />
+        <button id="btn" type="submit">Submit</button>
+        <button id="btn2" type="reset">Reset</button>
+      </div>
+
+      <div class="container-2" id="container-2">
+        <h1>Interactive Quiz</h1>
+        <h2>Your Quiz Result</h2>
+        <h3 id="result">Score: 0</h3>
+        <button id="close">Close</button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
